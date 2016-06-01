@@ -1,0 +1,14 @@
+{
+  "name": "students-heig",
+  "version": "0.1.0",
+  "description": "This is for the 2nd step of the lab with consiste to create a Dynamic HTTP server with express.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Patrick Deslé Djomo",
+  "license": "ISC",
+  "dependencies": {
+    "chance": "^1.0.3"
+  }
+}
