@@ -134,7 +134,7 @@ console.log("Boujour " + chance.name());
 var tmp = generateProvinceCytizen();
 
 server.on('request', function(request, response){
-	if(request.method === 'GET' && request.url ==='/echo'){
+	if(request.method === 'GET' && request.url ==='/api/students/'){
 	
 		var responseBody = generateProvinceCytizen();
 		request.on('data', function() {
